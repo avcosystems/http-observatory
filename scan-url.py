@@ -2,7 +2,7 @@ from httpobs.scanner.local import scan
 import sys
 import json
 
-if len(sys.argv) == 0:
+if len(sys.argv) < 2:
 	print("You must supply an endpoint argument")
 	sys.exit(1)
 
